@@ -6,6 +6,8 @@
 #**** Main Programm ****
 #***********************
 
+print "Test GitHub"
+
 # Package importation
 import numpy as np
 import cv2
