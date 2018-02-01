@@ -1,3 +1,11 @@
+###################################
+##### Authors:                #####
+##### Stephane Vujasinovic    #####
+##### Frederic Uhrweiller     ##### 
+#####                         #####
+##### Creation: 2017          #####
+###################################
+
 import numpy as np
 import cv2
 
