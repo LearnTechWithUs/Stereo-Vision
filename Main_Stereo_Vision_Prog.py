@@ -7,8 +7,8 @@
 ##### Authors:                #####
 ##### Stephane Vujasinovic    #####
 ##### Frederic Uhrweiller     ##### 
-#####  					      #####
-##### Creation: 2017  		  #####
+#####                         #####
+##### Creation: 2017          #####
 ###################################
 
 
