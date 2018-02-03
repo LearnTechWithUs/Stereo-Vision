@@ -1,12 +1,14 @@
 # Stereo-Vision
 
-Authors: Stephane Vujasinovic & Frederic Uhrweiller
-
 This program has been developed as part of a project at the University of Karlsruhe in Germany. The final purpose of the algorithm is to measure the distance to an object by using Stereo Cameras.
 
 A video of the project can be found here: https://www.youtube.com/watch?v=xjx4mbZXaNc
 
 It is still an experimental version and further improvements will have to be done.
+
+## Contributors
+- Stephane VUJASINOVIC
+- Frederic UHRWEILLER
 
 ## Requirements
 
