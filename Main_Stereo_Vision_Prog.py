@@ -111,8 +111,8 @@ print('Cameras Ready to use')
 #********************************************
 
 # StereoCalibrate function
-flags = 0
-flags |= cv2.CALIB_FIX_INTRINSIC
+#flags = 0
+#flags |= cv2.CALIB_FIX_INTRINSIC
 #flags |= cv2.CALIB_FIX_PRINCIPAL_POINT
 #flags |= cv2.CALIB_USE_INTRINSIC_GUESS
 #flags |= cv2.CALIB_FIX_FOCAL_LENGTH
@@ -131,8 +131,8 @@ retS, MLS, dLS, MRS, dRS, R, T, E, F= cv2.stereoCalibrate(objpoints,
                                                           mtxR,
                                                           distR,
                                                           ChessImaR.shape[::-1],
-                                                          criteria_stereo,
-                                                          flags)
+                                                          criteria = criteria_stereo,
+                                                          flags = cv2.CALIB_FIX_INTRINSIC)
 
 # StereoRectify function
 rectify_scale= 0 # if 0 image croped, if 1 image nor croped
@@ -188,8 +188,8 @@ while True:
     retL, frameL= CamL.read()
 
     # Rectify the images on rotation and alignement
-    Left_nice= cv2.remap(frameL,Left_Stereo_Map[0],Left_Stereo_Map[1], cv2.INTER_LANCZOS4, cv2.BORDER_CONSTANT, 0)  # Rectify the image using the kalibration parameters founds during the initialisation
-    Right_nice= cv2.remap(frameR,Right_Stereo_Map[0],Right_Stereo_Map[1], cv2.INTER_LANCZOS4, cv2.BORDER_CONSTANT, 0)
+    Left_nice= cv2.remap(frameL,Left_Stereo_Map[0],Left_Stereo_Map[1], interpolation = cv2.INTER_LANCZOS4, borderMode = cv2.BORDER_CONSTANT)  # Rectify the image using the kalibration parameters founds during the initialisation
+    Right_nice= cv2.remap(frameR,Right_Stereo_Map[0],Right_Stereo_Map[1], interpolation = cv2.INTER_LANCZOS4, borderMode = cv2.BORDER_CONSTANT)
 
 ##    # Draw Red lines
 ##    for line in range(0, int(Right_nice.shape[0]/20)): # Draw the Lines on the images Then numer of line is defines by the image Size/20
