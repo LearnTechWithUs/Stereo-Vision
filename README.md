@@ -32,3 +32,16 @@ It is good to take around 30 to 50 pictures with both cameras.
 
 This script is used to calibrate the cameras with the pictures previously taken by the script "Take_images_for_calibration.py". 
 A disparity map is then generated and thank to a third order regression, it is possible to measure the distance to a defined object by clicking on it. 
+
+## Camera used in this project
+
+Cameras used in the projet are: Logitech Webcam C170. C270 and C370 are also fine.
+
+Amazon Links for webcams (best prices):
+
+-USA: https://amzn.to/3sFlaWj
+-UK: https://amzn.to/3rBnfRJ
+-Germany: https://amzn.to/3w5DE4m
+-France: https://amzn.to/3u5GVPf
+-Spain: https://amzn.to/3dz9XjZ
+-Italy: https://amzn.to/3m1I3Rm
