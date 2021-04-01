@@ -39,7 +39,7 @@ Cameras used in the projet are: Logitech Webcam C170. C270 and C370 are also fin
 
 Amazon Links for webcams (best prices):
 
-- USA: https://amzn.to/3sFlaWj
+- USA: https://amzn.to/39zZfsd
 
 - UK: https://amzn.to/3rBnfRJ
 
