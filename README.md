@@ -21,7 +21,6 @@ Required python packages:
 - numpy
 - openCV
 - openpyxl
-- scikitlearn
 
 ## "Take_images_for_calibration.py"
 
