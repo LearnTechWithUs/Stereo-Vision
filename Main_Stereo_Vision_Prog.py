@@ -21,8 +21,6 @@
 import numpy as np
 import cv2
 from openpyxl import Workbook # Used for writing data into an Excel file
-from sklearn.preprocessing import normalize
-
 # Filtering
 kernel= np.ones((3,3),np.uint8)
 
